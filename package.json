@@ -1,0 +1,32 @@
+{
+  "name": "flyd-withlatestfrom",
+  "version": "0.1.0",
+  "description": "withLatestFrom implementation for flyd streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertofer/flyd-withLatestFrom.git"
+  },
+  "keywords": [
+    "flyd",
+    "streams",
+    "withLatestFrom",
+    "combine"
+  ],
+  "author": "Alberto Fernandez (Bertofer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bertofer/flyd-withLatestFrom/issues"
+  },
+  "homepage": "https://github.com/bertofer/flyd-withLatestFrom#readme",
+  "dependencies": {
+    "flyd": "^0.2.4"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.2.0"
+  }
+}
